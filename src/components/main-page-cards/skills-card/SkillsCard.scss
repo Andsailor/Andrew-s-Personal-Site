@@ -1,0 +1,16 @@
+.skills {
+  &-wrapper {
+    margin-top: 2.5rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+      width: clamp(3rem, 10vw, 4rem);
+    }
+  }
+}

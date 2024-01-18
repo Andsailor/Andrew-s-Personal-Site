@@ -1,0 +1,15 @@
+html[data-theme="light"] {
+  --headers-clr: #ce5a67;
+  --bg-color: #f8f4ec;
+  --text-color: #706b63;
+  --main-page-card-bg: rgba(211, 204, 191, 1);
+  --filter: grayscale(50%);
+}
+
+html[data-theme="dark"] {
+  --headers-clr: #f99417;
+  --bg-color: #2d3250;
+  --text-color: #f5f5f5;
+  --main-page-card-bg: rgba(245, 245, 245, 0.1);
+  --filter: grayscale(50%);
+}

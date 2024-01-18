@@ -1,0 +1,26 @@
+.about {
+  cursor: pointer;
+  &-avatar {
+    border-radius: 100%;
+    border: 2px solid var(--headers-clr);
+    width: clamp(130px, 20vw, 180px);
+    margin-bottom: 0.5rem;
+  }
+  &-wrapper {
+    text-align: end;
+    &-title {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      justify-content: end;
+    }
+    &-description {
+      &-text {
+        font-size: clamp(1rem, 3vw, 1.5rem);
+      }
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}

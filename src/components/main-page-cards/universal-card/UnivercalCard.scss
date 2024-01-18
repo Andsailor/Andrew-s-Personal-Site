@@ -1,0 +1,21 @@
+.universal {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  &-wrapper {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+    &-icon {
+      svg {
+        width: clamp(6rem, 10vw, 8rem);
+        height: clamp(6rem, 10vw, 8rem);
+      }
+    }
+  }
+}
