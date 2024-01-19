@@ -1,9 +1,9 @@
 .header {
-  padding: 0.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 70px;
+  margin-bottom: 3rem;
   svg {
     width: 3rem;
   }
@@ -11,7 +11,6 @@
     transition: 120ms linear;
     cursor: pointer;
     border-radius: 8px;
-    padding: 0.5rem;
     background-color: inherit;
     border: none;
     height: 100%;

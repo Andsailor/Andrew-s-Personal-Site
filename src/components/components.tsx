@@ -1,6 +1,11 @@
 export { Header } from "./header/Header";
-export { AboutMeCard } from "./main-page-cards/about-me-card/AboutMeCard";
-export { UniversalCard } from "./main-page-cards//universal-card/UniversalCard.tsx";
-export { SkillsCard } from "./main-page-cards/skills-card/SkillsCard.tsx";
-export { ProjectsIcon } from "./main-page-cards/projects-icon/ProjectsIcon.tsx";
-export { ResumeIcon } from "./main-page-cards/resume-icon/ResumeIcon.tsx";
+export { AboutMeCard } from "./main-page-ui/about-me-card/AboutMeCard";
+export { UniversalCard } from "./main-page-ui//universal-card/UniversalCard.tsx";
+export { SkillsCard } from "./main-page-ui/skills-card/SkillsCard.tsx";
+export { ProjectsIcon } from "./main-page-ui/projects-icon/ProjectsIcon.tsx";
+export { ResumeIcon } from "./main-page-ui/resume-icon/ResumeIcon.tsx";
+export { ContactsCard } from "./resume-page-ui/contacts-card/ContactsCard.tsx";
+export { GitHubIcon } from "./resume-page-ui/contacts-card/social-icons/GitHubIcon.tsx";
+export { LinkedinIcon } from "./resume-page-ui/contacts-card/social-icons/LinkedinIcon.tsx";
+export { TelegramIcon } from "./resume-page-ui/contacts-card/social-icons/TelegramIcon.tsx";
+export { CvIcon } from "./resume-page-ui/contacts-card/social-icons/CvIcon.tsx";

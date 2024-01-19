@@ -8,11 +8,13 @@ import reactIcon from "../../../assets/skills/react.png";
 import reduxIcon from "../../../assets/skills/redux.png";
 import sassSIcon from "../../../assets/skills/sass.png";
 import tailwindIcon from "../../../assets/skills/tailwind.png";
+import htmlIcon from "../../../assets/skills/HTML5.png";
 
 import "./SkillsCard.scss";
 
 export function SkillsCard() {
   const skills = [
+    htmlIcon,
     typeScriptIcon,
     reactIcon,
     reduxIcon,

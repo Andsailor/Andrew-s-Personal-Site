@@ -1,6 +1,8 @@
+import { Routes, Route } from "react-router-dom";
+
 import { Header } from "./components/components";
 
-import { MainPage } from "./pages/pages";
+import { MainPage, ResumePage } from "./pages/pages";
 
 import "./App.scss";
 
@@ -8,7 +10,10 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <MainPage />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/resume" element={<ResumePage />} />
+      </Routes>
     </div>
   );
 }

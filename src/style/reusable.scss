@@ -1,0 +1,44 @@
+#card {
+  transition: 0.5s all;
+  padding: 1.5rem;
+  border-radius: 30px;
+  min-height: 250px;
+  background-color: var(--main-page-card-bg);
+  filter: var(--filter);
+  h2 {
+    font-size: clamp(1.7rem, 5vw, 2rem);
+  }
+  #wave {
+    animation: wave-animation 1.5s ease-in;
+    animation-delay: 1.5s;
+    width: clamp(1.5rem, 7vw, 2.5rem);
+  }
+  #arrows {
+    transition: 0.3s all;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    color: var(--headers-clr);
+  }
+  &:hover {
+    filter: none;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 10px var(--headers-clr);
+    #arrows {
+      transform: scale(1.2);
+      border-radius: 100%;
+    }
+    #wave {
+      animation: wave-animation 1.5s infinite;
+    }
+    #skill {
+      transition: 0.5s all;
+      transform: scale(1.1);
+    }
+    #projects {
+      animation: rotate 8s infinite linear;
+    }
+    #resume {
+      animation: wiggle 2s infinite linear;
+    }
+  }
+}
