@@ -1,0 +1,13 @@
+.education {
+  &-position {
+    font-size: 1.3rem;
+  }
+  &-duration {
+    padding-left: 0.5rem;
+  }
+  &-university {
+    font-size: clamp(1.3rem, 3vw, 1.5rem);
+    color: var(--headers-clr);
+    font-weight: bold;
+  }
+}

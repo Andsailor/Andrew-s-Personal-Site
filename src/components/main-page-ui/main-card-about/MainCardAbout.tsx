@@ -1,9 +1,9 @@
 import avatar from "../../../assets/avatar.png";
 import wave from "../../../assets/wave.png";
 
-import "./AboutMeCard.scss";
+import "./MainCardAbout.scss";
 
-export function AboutMeCard() {
+export function MainCardAbout() {
   return (
     <div className="about">
       <img src={avatar} alt="" className="about-avatar" />

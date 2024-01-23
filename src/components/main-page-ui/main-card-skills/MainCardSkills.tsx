@@ -10,9 +10,9 @@ import sassSIcon from "../../../assets/skills/sass.png";
 import tailwindIcon from "../../../assets/skills/tailwind.png";
 import htmlIcon from "../../../assets/skills/HTML5.png";
 
-import "./SkillsCard.scss";
+import "./MainCardSkills.scss";
 
-export function SkillsCard() {
+export function MainCardSkills() {
   const skills = [
     htmlIcon,
     typeScriptIcon,

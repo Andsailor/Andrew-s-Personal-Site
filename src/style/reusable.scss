@@ -1,6 +1,6 @@
 #card {
   transition: 0.5s all;
-  padding: 1.5rem;
+  padding: clamp(1rem, 2vw, 1.5rem);
   border-radius: 30px;
   min-height: 250px;
   background-color: var(--main-page-card-bg);

@@ -1,11 +1,18 @@
 export { Header } from "./header/Header";
-export { AboutMeCard } from "./main-page-ui/about-me-card/AboutMeCard";
-export { UniversalCard } from "./main-page-ui//universal-card/UniversalCard.tsx";
-export { SkillsCard } from "./main-page-ui/skills-card/SkillsCard.tsx";
-export { ProjectsIcon } from "./main-page-ui/projects-icon/ProjectsIcon.tsx";
-export { ResumeIcon } from "./main-page-ui/resume-icon/ResumeIcon.tsx";
-export { ContactsCard } from "./resume-page-ui/contacts-card/ContactsCard.tsx";
-export { GitHubIcon } from "./resume-page-ui/contacts-card/social-icons/GitHubIcon.tsx";
-export { LinkedinIcon } from "./resume-page-ui/contacts-card/social-icons/LinkedinIcon.tsx";
-export { TelegramIcon } from "./resume-page-ui/contacts-card/social-icons/TelegramIcon.tsx";
-export { CvIcon } from "./resume-page-ui/contacts-card/social-icons/CvIcon.tsx";
+
+// * MainPage UI
+export { MainCardAbout } from "./main-page-ui/main-card-about/MainCardAbout.tsx";
+export { MainCardUniversal } from "./main-page-ui/main-card-universal/MainCardUniversal.tsx";
+export { MainCardSkills } from "./main-page-ui/main-card-skills/MainCardSkills.tsx";
+
+//* ResumePage UI
+export { ResumeCardContacts } from "./resume-page-ui/resume-card-contacts/ResumeCardContacts.tsx";
+export { ResumeSectionInformation } from "./resume-page-ui/resume-section-information/ResumeSectionInformation.tsx";
+
+// * App Icons
+export { CardIconProjects } from "./main-page-ui/main-card-universal/card-icon-projects/CardIconProjects.tsx";
+export { CardIconResume } from "./main-page-ui/main-card-universal/card-icon-resume/CardIconResume.tsx";
+export { AppIconCV } from "./app-icons/AppIconCV.tsx";
+export { AppIconGitHub } from "./app-icons/AppIconGitHub.tsx";
+export { AppIconLinkedin } from "./app-icons/AppIconLinkedin.tsx";
+export { AppIconTelegram } from "./app-icons/AppIconTelegram.tsx";

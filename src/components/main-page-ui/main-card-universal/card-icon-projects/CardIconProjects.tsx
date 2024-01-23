@@ -1,4 +1,4 @@
-export function ProjectsIcon() {
+export function CardIconProjects() {
   return (
     <svg
       width="800px"

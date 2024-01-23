@@ -1,4 +1,4 @@
-export function LinkedinIcon() {
+export function AppIconLinkedin() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

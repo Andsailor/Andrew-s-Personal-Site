@@ -1,0 +1,18 @@
+.experience {
+  &-office {
+    &-company {
+      font-size: clamp(1.3rem, 3vw, 1.5rem);
+    }
+    &-position {
+      font-size: 1.3rem;
+    }
+    &-duration {
+      padding-left: 0.5rem;
+    }
+    &-duties {
+      ul {
+        margin: 0;
+      }
+    }
+  }
+}

@@ -1,32 +1,32 @@
 import {
-  GitHubIcon,
-  LinkedinIcon,
-  TelegramIcon,
-  CvIcon,
+  AppIconCV,
+  AppIconGitHub,
+  AppIconLinkedin,
+  AppIconTelegram,
 } from "../../../components";
 
-import "./ContactsCardSocialLinks.scss";
+import "./CardButtonsSocials.scss";
 
-export function ContactsCardSocialLinks() {
+export function CardButtonsSocials() {
   const socials = [
     {
       name: "GitHub",
-      icon: <GitHubIcon />,
+      icon: <AppIconGitHub />,
       ref: "https://github.com/Andsailor",
     },
     {
       name: "Linkedin",
-      icon: <LinkedinIcon />,
+      icon: <AppIconLinkedin />,
       ref: "https://www.linkedin.com/in/andrii-potapov-20279528a/",
     },
     {
       name: "Telegram",
-      icon: <TelegramIcon />,
+      icon: <AppIconTelegram />,
       ref: "https://t.me/andsailor",
     },
     {
       name: "Resume",
-      icon: <CvIcon />,
+      icon: <AppIconCV />,
       ref: "https://drive.google.com/file/d/1aJ7oSwn_BUuVETwUCHZFkD755RI945oi/view?usp=sharing",
     },
   ];

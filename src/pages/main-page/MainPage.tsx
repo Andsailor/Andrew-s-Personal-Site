@@ -1,9 +1,9 @@
 import {
-  AboutMeCard,
-  SkillsCard,
-  UniversalCard,
-  ProjectsIcon,
-  ResumeIcon,
+  MainCardAbout,
+  MainCardSkills,
+  MainCardUniversal,
+  CardIconProjects,
+  CardIconResume,
 } from "../../components/components";
 
 import "./MainPage.scss";
@@ -12,20 +12,20 @@ export function MainPage() {
   return (
     <section className="main">
       <div id="card" className="main-about slide-down">
-        <AboutMeCard />
+        <MainCardAbout />
       </div>
       <div id="card" className="main-resume slide-down">
-        <UniversalCard id="resume" title="<Resume/>" path="/resume">
-          <ResumeIcon />
-        </UniversalCard>
+        <MainCardUniversal id="resume" title="<Resume/>" path="/resume">
+          <CardIconResume />
+        </MainCardUniversal>
       </div>
       <div id="card" className="main-projects slide-down">
-        <UniversalCard id="projects" title="<Projects/>" path="/projects">
-          <ProjectsIcon />
-        </UniversalCard>
+        <MainCardUniversal id="projects" title="<Projects/>" path="/projects">
+          <CardIconProjects />
+        </MainCardUniversal>
       </div>
       <div id="card" className="main-skills slide-down">
-        <SkillsCard />
+        <MainCardSkills />
       </div>
     </section>
   );

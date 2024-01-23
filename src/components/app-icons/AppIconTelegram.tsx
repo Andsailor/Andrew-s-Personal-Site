@@ -1,4 +1,4 @@
-export function TelegramIcon() {
+export function AppIconTelegram() {
   return (
     <svg width="24px" height="24px" version="1.1" fill="var(--headers-clr)">
       <path

@@ -1,12 +1,12 @@
-import { ContactsCardSocialLinks } from "./contacts-card-social-links/ContactsCardSocialLinks";
+import { CardButtonsSocials } from "./card-buttons-socials/CardButtonsSocials";
 
 import flagIcon from "../../../assets/ua.png";
 
-import "./ContactsCard.scss";
+import "./ResumeCardContacts.scss";
 
-export function ContactsCard() {
+export function ResumeCardContacts() {
   return (
-    <div id="card" className="contacts">
+    <div id="card" className="contacts slide-down">
       <h2 className="contacts-name">Andrew</h2>
       <h4 className="contacts-position">Frontend Developer 💻</h4>
       <div>
@@ -16,7 +16,7 @@ export function ContactsCard() {
         <img src={flagIcon} alt="Ukrainian flag <3" />
         <span>Ukraine</span>
       </div>
-      <ContactsCardSocialLinks />
+      <CardButtonsSocials />
     </div>
   );
 }

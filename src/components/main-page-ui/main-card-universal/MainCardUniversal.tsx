@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import "./UnivercalCard.scss";
+import "./MainCardUniversal.scss";
 
 interface IProps {
   title: string;
@@ -9,7 +9,7 @@ interface IProps {
   children: JSX.Element;
 }
 
-export function UniversalCard({ title, id, children, path }: IProps) {
+export function MainCardUniversal({ title, id, children, path }: IProps) {
   const navigate = useNavigate();
 
   return (

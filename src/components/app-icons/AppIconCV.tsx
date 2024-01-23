@@ -1,4 +1,4 @@
-export function CvIcon() {
+export function AppIconCV() {
   return (
     <svg
       width="24"
