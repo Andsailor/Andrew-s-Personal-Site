@@ -1,4 +1,5 @@
 export { Header } from "./header/Header";
+export { Footer } from "./footer/Footer.tsx";
 
 // * MainPage UI
 export { MainCardAbout } from "./main-page-ui/main-card-about/MainCardAbout.tsx";
@@ -8,6 +9,9 @@ export { MainCardSkills } from "./main-page-ui/main-card-skills/MainCardSkills.t
 //* ResumePage UI
 export { ResumeCardContacts } from "./resume-page-ui/resume-card-contacts/ResumeCardContacts.tsx";
 export { ResumeSectionInformation } from "./resume-page-ui/resume-section-information/ResumeSectionInformation.tsx";
+
+//* ProjectsPage UI
+export { ProjectsCards } from "./projects-page-ui/projects-cards/ProjectsCards.tsx";
 
 // * App Icons
 export { CardIconProjects } from "./main-page-ui/main-card-universal/card-icon-projects/CardIconProjects.tsx";

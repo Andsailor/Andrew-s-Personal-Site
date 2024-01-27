@@ -1,0 +1,17 @@
+footer {
+  display: flex;
+  gap: 2rem;
+  position: absolute;
+  bottom: clamp(1rem, 2vw, 1.5rem);
+  left: 50%;
+  transform: translateX(-50%);
+  svg {
+    cursor: pointer;
+    transition: 0.3s all;
+    filter: grayscale(50%);
+    &:hover {
+      transform: scale(1.05);
+      filter: none;
+    }
+  }
+}

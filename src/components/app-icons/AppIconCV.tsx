@@ -1,8 +1,12 @@
-export function AppIconCV() {
+interface IProps {
+  size: string;
+}
+
+export function AppIconCV({ size }: IProps) {
   return (
     <svg
-      width="24"
-      height="24"
+      width={size}
+      height={size}
       xmlns="http://www.w3.org/2000/svg"
       fill="var(--headers-clr)"
       fill-rule="evenodd"
