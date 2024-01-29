@@ -1,6 +1,5 @@
 import "./ResumeBlockCertifications.scss";
 
-// TODO : REFACTOR IF NECESSARY, CHECK PREWIOUS COMPONENTS BEFORE COMMIT AND MERGE
 export function ResumeBlockCertifications() {
   const certifications = [
     {

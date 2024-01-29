@@ -5,7 +5,7 @@ export function ProjectIconLanding() {
       width="256"
       height="256"
       viewBox="0 0 64 64"
-      enable-background="new 0 0 64 64"
+      enableBackground="new 0 0 64 64"
     >
       <g>
         <path

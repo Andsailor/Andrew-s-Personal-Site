@@ -4,7 +4,7 @@ import "./Footer.scss";
 
 export function Footer() {
   return (
-    <footer className="fadeIn">
+    <footer>
       <a target="_blank" href="https://github.com/Andsailor">
         <AppIconGitHub size="40px" />
       </a>

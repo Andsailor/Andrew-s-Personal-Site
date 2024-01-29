@@ -1,13 +1,10 @@
 import { ProjectIconShop } from "./projects-icons/ProjectIconShop.tsx";
 import { ProjectIconBook } from "./projects-icons/ProjectIconBook.tsx";
 import { ProjectIconWeather } from "./projects-icons/ProjectIconWeather.tsx";
-
-import "./ProjectsCard.scss";
 import { ProjectIconTodo } from "./projects-icons/ProjectIconTodo.tsx";
 import { ProjectIconLanding } from "./projects-icons/ProjectIconLanding.tsx";
 
-// TODO Animations on cards
-// TODO Complete adaptation
+import "./ProjectsCard.scss";
 
 export function ProjectsCards() {
   const projects = [
@@ -51,8 +48,7 @@ export function ProjectsCards() {
             target="_blank"
             href={project.link}
             key={i}
-            id="card"
-            className="projects-card"
+            className="projects-card card-view"
           >
             {project.image}
             <h2>{project.title}</h2>

@@ -3,28 +3,16 @@
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  svg {
-    width: 3rem;
-  }
-  &-button {
-    transition: 120ms linear;
+  &-icon {
     cursor: pointer;
-    border-radius: 8px;
-    background-color: inherit;
-    border: none;
-    height: 100%;
+    transition: all 120ms linear;
+    height: 1.8rem;
     &:hover {
-      img {
-        color: var(--headers-clr);
-        transform: scale(1.05);
-      }
-    }
-    &-icon {
-      transition: all 120ms linear;
-      color: #fff;
-      height: 1.8rem;
+      color: var(--headers-clr);
+      transform: scale(1.05);
     }
   }
+
   &-home {
     cursor: pointer;
     transition: 0.2s all;

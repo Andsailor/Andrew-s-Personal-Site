@@ -7,9 +7,9 @@ export function ResumeBlockExperience() {
       position: "Remote Engineer, Electrical Engineer",
       duration: "2017 - 2022",
       duties: [
-        "Developing of electrical schemes using AutoCAD",
-        "Communication with clients about company's products",
-        "Constructing electrical facilites",
+        "Development of electrical schemes (AutoCAD)",
+        "Communication with clients",
+        "Construction of electrical facilites",
       ],
     },
   ];

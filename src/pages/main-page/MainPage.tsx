@@ -11,20 +11,20 @@ import "./MainPage.scss";
 export function MainPage() {
   return (
     <section className="main">
-      <div id="card" className="main-about slide-down">
+      <div className="main-about card-view slide-down ">
         <MainCardAbout />
       </div>
-      <div id="card" className="main-resume slide-down">
+      <div className="main-resume card-view slide-down">
         <MainCardUniversal id="resume" title="<Resume/>" path="/resume">
           <CardIconResume />
         </MainCardUniversal>
       </div>
-      <div id="card" className="main-projects slide-down">
+      <div className="main-projects card-view slide-down">
         <MainCardUniversal id="projects" title="<Projects/>" path="/projects">
           <CardIconProjects />
         </MainCardUniversal>
       </div>
-      <div id="card" className="main-skills slide-down">
+      <div className="main-skills card-view slide-down">
         <MainCardSkills />
       </div>
     </section>

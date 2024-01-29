@@ -1,21 +1,23 @@
+import { useNavigate } from "react-router-dom";
+
 import avatar from "../../../assets/avatar.png";
 import wave from "../../../assets/wave.png";
 
 import "./MainCardAbout.scss";
 
 export function MainCardAbout() {
+  const navigate = useNavigate();
+
   return (
-    <div className="about">
-      <img src={avatar} alt="" className="about-avatar" />
+    <div onClick={() => navigate("/about")} className="about">
+      <img src={avatar} alt="personal avatar" className="about-avatar" />
       <div className="about-wrapper">
         <h2 className="about-wrapper-title">
           Hello, i'm Andrew!
-          <img id="wave" src={wave} alt="wave icon" />
+          <img className="wave" src={wave} alt="wave icon" />
         </h2>
         <div className="about-wrapper-description">
-          <div id="arrows" className="about-wrapper-description-arrows">
-            {">>"}
-          </div>
+          <div className="arrow">{">>"}</div>
           <div className="about-wrapper-description-text">
             I am a self-taught frontend developer from Ukraine!
           </div>

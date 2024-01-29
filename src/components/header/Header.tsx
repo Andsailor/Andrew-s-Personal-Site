@@ -7,8 +7,8 @@ import dark from "../../assets/dark.svg";
 import "./Header.scss";
 
 export function Header() {
-  const navigate = useNavigate();
   const { theme, toggleTheme } = useTheme();
+  const navigate = useNavigate();
 
   const toggleThemeIcon = theme === "dark" ? light : dark;
 
@@ -22,13 +22,12 @@ export function Header() {
       >
         {"<Home/>"}
       </div>
-      <button onClick={toggleTheme} className="header-button">
-        <img
-          className="header-button-icon"
-          src={toggleThemeIcon}
-          alt="theme switch icon"
-        />
-      </button>
+      <img
+        onClick={toggleTheme}
+        className="header-icon"
+        src={toggleThemeIcon}
+        alt="theme switch icon"
+      />
     </header>
   );
 }

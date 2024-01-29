@@ -1,4 +1,4 @@
-#card {
+.card-view {
   transition: 0.5s all;
   padding: clamp(1rem, 2vw, 1.5rem);
   border-radius: 30px;
@@ -8,26 +8,15 @@
   h2 {
     font-size: clamp(1.7rem, 5vw, 2rem);
   }
-  #wave {
-    animation: wave-animation 1.5s ease-in;
-    animation-delay: 1.5s;
-    width: clamp(1.5rem, 7vw, 2.5rem);
-  }
-  #arrows {
-    transition: 0.3s all;
-    font-weight: 600;
-    font-size: clamp(1.5rem, 5vw, 2rem);
-    color: var(--headers-clr);
-  }
   &:hover {
     filter: none;
     transform: scale(1.02);
     box-shadow: 1px 1px 10px var(--headers-clr);
-    #arrows {
+    .arrow {
       transform: scale(1.2);
       border-radius: 100%;
     }
-    #wave {
+    .wave {
       animation: wave-animation 1.5s infinite;
     }
     #skill {
@@ -41,4 +30,17 @@
       animation: wiggle 2s infinite linear;
     }
   }
+}
+
+.arrow {
+  transition: 0.3s all;
+  font-weight: 600;
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  color: var(--headers-clr);
+}
+
+.wave {
+  animation: wave-animation 1.5s ease-in;
+  animation-delay: 1.5s;
+  width: clamp(1.5rem, 7vw, 2.5rem);
 }

@@ -20,7 +20,7 @@ export function MainCardUniversal({ title, id, children, path }: IProps) {
           {children}
         </div>
       </div>
-      <div id="arrows">{">>"}</div>
+      <div className="arrow">{">>"}</div>
     </div>
   );
 }

@@ -30,8 +30,8 @@ export function MainCardSkills() {
     <div className="skills">
       <h2 className="skills-title">Things i prefer</h2>
       <div className="skills-wrapper">
-        {skills.map((item) => {
-          return <img id="skill" src={item} alt={item + "icon"} />;
+        {skills.map((item, i) => {
+          return <img key={i} id="skill" src={item} alt={item + "icon"} />;
         })}
       </div>
     </div>
