@@ -9,8 +9,8 @@ export function AboutPage() {
       <h1>About me</h1>
       <div className="about-page-text">
         Hello, my name is Andrew, nice to see you here, in my personal website!
-        🖐😀 <br />I am a self taught Frontend Developer from Ukraine and i am
-        really passionate about it. 💻🤩 <br />
+        🖐😀 <br />I am a self-taught Frontend Developer from Ukraine and i am
+        really passionate about it. <br />
         <br />
         Solving problems and creating some cool features are best things for me,
         so that's why i decided to learn development!

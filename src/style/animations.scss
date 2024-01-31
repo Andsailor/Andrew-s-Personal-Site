@@ -69,6 +69,7 @@
   @keyframes slideDown {
     0% {
       transform: translateY(-100%);
+      opacity: 0;
     }
     50% {
       transform: translateY(8%);

@@ -1,15 +1,11 @@
-import { useNavigate } from "react-router-dom";
-
 import avatar from "../../../assets/avatar.png";
 import wave from "../../../assets/wave.png";
 
 import "./MainCardAbout.scss";
 
 export function MainCardAbout() {
-  const navigate = useNavigate();
-
   return (
-    <div onClick={() => navigate("/about")} className="about">
+    <div className="about">
       <img src={avatar} alt="personal avatar" className="about-avatar" />
       <div className="about-wrapper">
         <h2 className="about-wrapper-title">

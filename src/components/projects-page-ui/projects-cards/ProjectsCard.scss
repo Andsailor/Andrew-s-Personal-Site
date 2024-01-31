@@ -11,9 +11,16 @@
     svg {
       max-width: 150px;
     }
-    &:hover {
-      svg {
-        animation: wiggle 2s infinite linear;
+  }
+}
+
+@media (hover: hover) {
+  .projects {
+    &-card {
+      &:hover {
+        svg {
+          animation: wiggle 2s infinite linear;
+        }
       }
     }
   }

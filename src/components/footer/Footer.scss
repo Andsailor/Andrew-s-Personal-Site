@@ -9,9 +9,16 @@ footer {
     cursor: pointer;
     transition: 0.3s all;
     filter: grayscale(50%);
-    &:hover {
-      transform: scale(1.05);
-      filter: none;
+  }
+}
+
+@media (hover: hover) {
+  footer {
+    svg {
+      &:hover {
+        transform: scale(1.05);
+        filter: none;
+      }
     }
   }
 }

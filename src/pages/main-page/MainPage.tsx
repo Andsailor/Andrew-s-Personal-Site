@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 import {
   MainCardAbout,
   MainCardSkills,
@@ -9,18 +11,35 @@ import {
 import "./MainPage.scss";
 
 export function MainPage() {
+  const navigate = useNavigate();
+
+  function navigateTo(path: string) {
+    navigate(path);
+    window.scroll(0, 0);
+  }
   return (
     <section className="main">
-      <div className="main-about card-view slide-down ">
+      <div
+        onClick={() => navigateTo("about")}
+        className="main-about card-view slide-down "
+      >
         <MainCardAbout />
       </div>
-      <div className="main-resume card-view slide-down">
-        <MainCardUniversal id="resume" title="<Resume/>" path="/resume">
+      <div
+        onClick={() => navigateTo("resume")}
+        className="main-resume card-view slide-down"
+      >
+        <MainCardUniversal id="resume" title="<Resume/>">
           <CardIconResume />
         </MainCardUniversal>
       </div>
-      <div className="main-projects card-view slide-down">
-        <MainCardUniversal id="projects" title="<Projects/>" path="/projects">
+      <div
+        onClick={() => {
+          navigateTo("projects");
+        }}
+        className="main-projects card-view slide-down"
+      >
+        <MainCardUniversal id="projects" title="<Projects/>">
           <CardIconProjects />
         </MainCardUniversal>
       </div>

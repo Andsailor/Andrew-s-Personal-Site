@@ -17,8 +17,17 @@
       cursor: pointer;
       color: var(--headers-clr);
       text-decoration: underline;
-      &:hover {
-        filter: sepia(100);
+    }
+  }
+}
+
+@media (hover: hover) {
+  .about-page {
+    &-links {
+      span {
+        &:hover {
+          filter: sepia(100);
+        }
       }
     }
   }

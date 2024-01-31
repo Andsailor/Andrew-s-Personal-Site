@@ -7,21 +7,30 @@
     cursor: pointer;
     transition: all 120ms linear;
     height: 1.8rem;
-    &:hover {
-      color: var(--headers-clr);
-      transform: scale(1.05);
-    }
   }
 
   &-home {
     cursor: pointer;
-    transition: 0.2s all;
     filter: grayscale(50%);
+    transition: 0.2s all;
     color: var(--headers-clr);
     font-size: 1.5rem;
-    &:hover {
-      filter: none;
-      transform: scale(1.05);
+  }
+}
+
+@media (hover: hover) {
+  .header {
+    &-icon {
+      &:hover {
+        color: var(--headers-clr);
+        transform: scale(1.05);
+      }
+    }
+    &-home {
+      &:hover {
+        filter: none;
+        transform: scale(1.05);
+      }
     }
   }
 }
