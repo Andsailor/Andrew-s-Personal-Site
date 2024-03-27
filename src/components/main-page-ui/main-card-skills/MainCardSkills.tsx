@@ -1,5 +1,4 @@
 import typeScriptIcon from "../../../assets/skills/TypeScript.png";
-import bootstrapIcon from "../../../assets/skills/bootstrap.png";
 import figmaIcon from "../../../assets/skills/figma.png";
 import gitIcon from "../../../assets/skills/git.png";
 import npmIcon from "../../../assets/skills/npm.png";
@@ -8,23 +7,24 @@ import reactIcon from "../../../assets/skills/react.png";
 import reduxIcon from "../../../assets/skills/redux.png";
 import sassSIcon from "../../../assets/skills/sass.png";
 import tailwindIcon from "../../../assets/skills/tailwind.png";
-import htmlIcon from "../../../assets/skills/HTML5.png";
+import muiIcon from "../../../assets/skills/MUI.png";
+import nextJsIcon from "../../../assets/skills/next.png";
 
 import "./MainCardSkills.scss";
 
 export function MainCardSkills() {
   const skills = [
-    htmlIcon,
     typeScriptIcon,
+    nextJsIcon,
     reactIcon,
     reduxIcon,
     queryIcon,
     gitIcon,
     npmIcon,
-    bootstrapIcon,
     figmaIcon,
     sassSIcon,
     tailwindIcon,
+    muiIcon,
   ];
   return (
     <div className="skills">

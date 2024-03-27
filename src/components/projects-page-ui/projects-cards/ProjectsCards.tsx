@@ -3,6 +3,7 @@ import { ProjectIconBook } from "./projects-icons/ProjectIconBook.tsx";
 import { ProjectIconWeather } from "./projects-icons/ProjectIconWeather.tsx";
 import { ProjectIconTodo } from "./projects-icons/ProjectIconTodo.tsx";
 import { ProjectIconLanding } from "./projects-icons/ProjectIconLanding.tsx";
+import { ProjectIconMusicPlayer } from "./projects-icons/ProjectIconMusicPlayer.tsx";
 
 import "./ProjectsCard.scss";
 
@@ -29,9 +30,9 @@ export function ProjectsCards() {
       link: "https://react-redux-todo-list-lovat.vercel.app/",
     },
     {
-      title: "<NFTLanding/>",
-      image: <ProjectIconLanding />,
-      link: "https://github.com/Andsailor/NFT-responsive-project",
+      title: "<MusicPlayer/>",
+      image: <ProjectIconMusicPlayer />,
+      link: "https://react-music-player-omega-one.vercel.app/",
     },
     {
       title: "<GasLanding/>",
