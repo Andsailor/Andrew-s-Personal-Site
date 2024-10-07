@@ -27,7 +27,7 @@ export function CardButtonsSocials() {
     {
       name: "Resume",
       icon: <AppIconCV size={"24px"} />,
-      ref: "https://drive.google.com/file/d/1aJ7oSwn_BUuVETwUCHZFkD755RI945oi/view?usp=sharing",
+      ref: "https://drive.google.com/file/d/1m54W51LQM06dQt1JYdJR1-Pc6WhETJVs/view?usp=sharing",
     },
   ];
 

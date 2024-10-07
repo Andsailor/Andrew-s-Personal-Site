@@ -1,4 +1,3 @@
-import { ProjectIconShop } from "./projects-icons/ProjectIconShop.tsx";
 import { ProjectIconBook } from "./projects-icons/ProjectIconBook.tsx";
 import { ProjectIconWeather } from "./projects-icons/ProjectIconWeather.tsx";
 import { ProjectIconTodo } from "./projects-icons/ProjectIconTodo.tsx";
@@ -10,9 +9,9 @@ import "./ProjectsCard.scss";
 export function ProjectsCards() {
   const projects = [
     {
-      title: "<Ezshop/>",
-      image: <ProjectIconShop />,
-      link: "https://react-fake-store-inky.vercel.app/",
+      title: "<MERN_ToDo/>",
+      image: <ProjectIconTodo />,
+      link: "https://github.com/Andsailor/MERN-todo-frontend",
     },
     {
       title: "<We<3Books/>",
@@ -23,11 +22,6 @@ export function ProjectsCards() {
       title: "<WeatherApp/>",
       image: <ProjectIconWeather />,
       link: "https://react-weather-app-andsailor.vercel.app/",
-    },
-    {
-      title: "<ToDo/>",
-      image: <ProjectIconTodo />,
-      link: "https://react-redux-todo-list-lovat.vercel.app/",
     },
     {
       title: "<MusicPlayer/>",
